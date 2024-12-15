@@ -105,6 +105,18 @@ section.text-center {
 
         padding: 8px;
 }
+.contact-info {
+        text-align: center;
+        font-size: 14px;
+        color: #555;
+}
+.contact-info p {
+        margin: 5px 0;
+}
+.contact-info i {
+        margin-right: 8px;
+        color: #007bff; /* Blauwe kleur voor iconen */
+}
 .image-overlay {
         position: relative;
         display: inline-block;
