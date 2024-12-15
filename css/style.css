@@ -105,7 +105,24 @@ section.text-center {
 
         padding: 8px;
 }
-
+.image-overlay {
+        position: relative;
+        display: inline-block;
+}
+.image-overlay img {
+        display: block;
+        width: 100%;
+        height: auto;
+}
+.caption-overlay {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        color: black;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 5px;
+}
 @media (max-width: 768px) {
 header .navbar {
         display: flex;
